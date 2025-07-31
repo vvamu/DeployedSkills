@@ -11,6 +11,21 @@
     }
 }
 
+.visible-navbar-by-width {
+    
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .visible-navbar-by-width {
+        display: block;
+    }
+}
+
+.margin-top-5{
+    margin-top:5%;
+}
+
 .flex-content{
     display:flex;
     grid-gap:6%;
